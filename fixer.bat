@@ -25,7 +25,7 @@
   set        SCRIPT_NAME=error43-fixer
 
 :text_strings_msgs
-  set          PRESS_KEY=Press any key to exit . . . 
+  set          PRESS_KEY=Press any key to exit . .
   set         NO_NV_GPUS=No Nvidia GPUs found. Please attach one and ensure it's driver is installed.
   set NO_NV_ERROR43_GPUS=No Nvidia GPUs in error code 43 state found.  Nothing to do.
   set       ALREADY_FIXED=is already registry patched but still has error code 43.
@@ -45,10 +45,7 @@
 :banner  
   echo(
   echo   [97;42m                                          [0m
-  echo   [97;42m   %SCRIPT_NAME% %SCRIPT_VER%            [0m
-  echo   [97;42m   %SCRIPT_AUTH%      [0m
-  echo   [97;42m                                          [0m
-  echo   [97;42m   %SCRIPT_HOME%   [0m
+  echo   [97;42m   %SCRIPT_NAME%                          [0m
   echo   [97;42m                                          [0m
   echo(
   set GPU_ADAPTERS=REG QUERY HKLM\System\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}
